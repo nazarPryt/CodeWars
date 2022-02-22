@@ -1,0 +1,5 @@
+function makeUpperCase(str) {
+  const new2 = str.toUpperCase()
+  return new2
+}
+console.log(makeUpperCase("nazar"))

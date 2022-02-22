@@ -1,0 +1,6 @@
+function betterThanAverage(classPoints, yourPoints) {
+  let initialValue = 0;
+  let averageSum = classPoints.reduce((a ,b) => a + b,initialValue) / classPoints.length
+  return yourPoints > averageSum ? true : false
+  
+}
