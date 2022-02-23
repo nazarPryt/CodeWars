@@ -1,0 +1,6 @@
+let myArray = [2, 4, 6]
+function maps(x){
+   let newArr = x.map(element =>  element * 2 )
+  return newArr
+}
+console.log(maps(myArray))

@@ -1,0 +1,9 @@
+let myArray = [1, 2, 4, 5, -6, 0]
+
+
+function positiveSum(arr) {
+  let filteredArr = arr.filter(i => i>0)
+  let sumArrNum = filteredArr.reduce((a,b) => a+b, i=0)
+  return sumArrNum
+}
+console.log(positiveSum(myArray))
