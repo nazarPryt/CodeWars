@@ -1,0 +1,9 @@
+function countBy(x, n) {
+    let z = [];
+    let index = 1;
+    while (z.length < n){
+        z.push(index * x);
+        index++
+    }
+    return z;
+}

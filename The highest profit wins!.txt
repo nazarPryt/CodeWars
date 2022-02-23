@@ -1,0 +1,13 @@
+let arr = [2, 3, 6, 2, 10]
+function minMax(arr){
+    let maxValue = Math.max(...arr)
+    let minValue = Math.min(...arr)
+    let newArr = []
+
+
+    newArr.push(maxValue);
+    newArr.unshift(minValue)
+    
+    return newArr
+}
+console.log(minMax(arr))
