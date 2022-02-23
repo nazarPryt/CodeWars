@@ -1,0 +1,12 @@
+let myArray = [2, 4, 6]
+
+var min = function(arr){
+  let minNum = Math.min(...arr)
+  return minNum;
+}
+
+var max = function(arr){
+  let maxNum = Math.max(...arr)
+  return maxNum;
+}
+console.log(max(myArray))
