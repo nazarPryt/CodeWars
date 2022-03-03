@@ -1,0 +1,11 @@
+function howMuchILoveYou(nbPetals) {
+    const phrasesArr = [
+      'I love you',
+      'a little',
+      'a lot',
+      'passionately',
+      'madly',  
+      'not at all',
+    ]
+    return phrasesArr[(nbPetals - 1) % phrasesArr.length]
+}
