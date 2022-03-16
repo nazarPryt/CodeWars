@@ -1,0 +1,9 @@
+function capitals(word){
+  var ara = []
+  for(var i = 0; i < word.length; i++){
+    if(word[i] == word[i].toUpperCase()){
+      ara.push(word.indexOf(word[i]))
+    }
+  }
+ return ara
+}
