@@ -1,0 +1,4 @@
+function doubleInteger(i) {
+ i += i
+  return i;
+}
