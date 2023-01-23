@@ -1,0 +1,1 @@
+square = arg => arg **2
