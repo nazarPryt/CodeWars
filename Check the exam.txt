@@ -1,0 +1,20 @@
+function checkExam(array1, array2) {
+    let score = 0
+
+    for(let el = 0; el < array1.length; el++){
+        if(array1[el] === array2[el]){
+            score = score + 4
+        } else if (array1[el] === '' || array2[el] === ''){
+            score
+        } else {
+            score = score - 1
+        }
+    }
+    if(score > 0){
+        return score
+    } else {
+        return 0
+    }
+}
+
+console.log(checkExam(["a", "a", "c", "b"], ["a", "a", "b",  ""]))
