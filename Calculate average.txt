@@ -1,0 +1,10 @@
+function findAverage(array) {
+    if(array.length === 0){
+        return 0;
+    } else {
+        return array.reduce((acc, cur) => acc + cur) / array.length
+    }
+
+}
+
+console.log(findAverage([2,5,2, 3, 3]))
