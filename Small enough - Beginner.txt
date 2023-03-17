@@ -1,0 +1,8 @@
+function smallEnough(a, limit){
+    let index = a.find(el => el > limit)
+
+    return !index;
+
+}
+
+console.log(smallEnough([66, 101], 200))

@@ -1,0 +1,16 @@
+function factorial(n) {
+    if(n < 0 || n > 12){
+        throw RangeError('Parameter must be between ' + 0 + ' and ' + 12)
+    } else if (n === 0){
+        return 1
+    } else {
+        const arr = []
+        for(let i = 1; i <= n; i++){
+            arr.push(i)
+        }
+        return arr.reduce((el,acc)=> el*acc)
+    }
+
+}
+
+console.log(factorial(5))
