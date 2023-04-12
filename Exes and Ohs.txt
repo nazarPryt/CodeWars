@@ -1,0 +1,20 @@
+function XO(str) {
+  let amountO = 0
+  let amountX = 0
+
+  const arr = str.toLowerCase().split('')
+
+  for(let i = 0; i < arr.length; i++){
+
+    if(arr[i] === 'x') {amountX++}
+    if(arr[i] === 'o') {amountO++}
+  }
+  console.log('amountO', amountO);
+  console.log('amountX', amountX);
+    return amountO === amountX
+
+  // arr.map(el => el === 'x' ? amountX = amountX++ : el === 'o' ? amountO = amountO++ : el )
+
+}
+
+console.log(XO("xxxm"));
