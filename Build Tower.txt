@@ -1,0 +1,7 @@
+function towerBuilder(nFloors) {
+  let result = [];
+  for ( let i = 1; i <= nFloors; i++ ) {
+    result.push(' '.repeat(nFloors-i) + '*'.repeat(i*2-1) + ' '.repeat(nFloors-i))
+  }
+  return result
+}
